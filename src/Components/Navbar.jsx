@@ -2,7 +2,7 @@ import React from "react";
 // import { useState } from "react";
 // import { TfiAlignJustify } from "react-icons/tfi";
 import { FiShoppingCart } from "react-icons/fi"
-import { DiRuby } from "react-icons/di"
+import Logo from "./logomaome.png"
 import { IconContext } from "react-icons/lib";
 import { Link } from "react-router-dom";
 import "./Navbar.css"
@@ -35,9 +35,11 @@ const Navbar = () => {
 
                     <IconContext.Provider value={{ style: { fontSize: "2em" } }}>
                         <div className="logo_container">
-                            <DiRuby />
+                            <Link to="/home">
+                                <img id="logoNN" src={Logo} alt="a happy dog icon" height={"50px"}/>
+                            </Link> 
                             <p>
-                                Gaming Palace
+                                
                             </p>
                         </div>
 
