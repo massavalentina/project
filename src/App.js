@@ -1,6 +1,7 @@
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Home } from './Components/Home';
+// import { Home } from './Components/Home';
+import Carousel from './Components/Carousel'
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
@@ -11,9 +12,10 @@ function App() {
     <div className="App">
       <Navbar />
 
-      <Routes>
-      <Route exact path="/home" element={<Home />} />
-      </Routes>
+      
+      <Carousel />
+      {/* <Home /> */}
+   
 
       <Footer />
     </div>

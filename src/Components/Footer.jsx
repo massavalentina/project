@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     
     <Navbar className="footer" bg="dark" variant="dark">
-      <Navbar.Text className='Light-Font'>© GamingPalace E-Commerce, 2023. All rights reserved.</Navbar.Text>
+      <Navbar.Text className='Light-Font'>© NoName Co E-Commerce, 2023. All rights reserved.</Navbar.Text>
       
       <Navbar className="footer_buttons">
       <Navbar.Text >

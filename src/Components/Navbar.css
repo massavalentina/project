@@ -105,7 +105,7 @@
 }
 
 .items:hover {
-    background-color: #95c827;
+    background-color: #272ac8;
     transition: 0.5s all ease;
     text-decoration: none!important;
 }
@@ -130,18 +130,10 @@
 
 
 
-.length_cart {
-    color: #fff;
-    position: relative;
-    font-weight: 600;
-    color: #95c827;
-    font-family: var(--font-family-test);
-    font-size: small;
-    margin: 5px;
-}
+
 
 .shopping_cart svg:hover {
-    color: #95c827;
+    color: #272ac8;
     transition: 0.3s all ease;
 }
 
@@ -159,7 +151,7 @@
     }
 
     .mobile_icon>svg {
-        fill: #c0f698;
+        fill: #272ac8;
         margin-right: 0.5rem;
     }
 

@@ -4,14 +4,14 @@
     justify-content: center;
     align-items: center;
      /* or any other height you prefer */
-    width: 200px;
+    width: 500px;
 }
   
   .button-group {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px; /* or any other margin you prefer */
+   /* or any other margin you prefer */
   }
   
   .button-group button {
@@ -28,3 +28,17 @@
   .centered-div {
      /* set the width to your desired value */
   }
+
+  .span {
+    width: 300px;
+    height: 150px;
+    background-color: #779DFF;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .span:hover {
+    background-color: #272ac8;
+    transition: 0.5s all ease;
+    text-decoration: none!important;
+}
