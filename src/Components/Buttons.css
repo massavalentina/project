@@ -1,0 +1,30 @@
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     /* or any other height you prefer */
+    width: 200px;
+}
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* or any other margin you prefer */
+  }
+  
+  .button-group button {
+    margin: 10px; /* or any other margin you prefer */
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* or any other height you prefer */
+  }
+  
+  .centered-div {
+     /* set the width to your desired value */
+  }
